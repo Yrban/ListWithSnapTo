@@ -13,7 +13,7 @@
 		8BF6B321283A808B0026869F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF6B320283A808B0026869F /* Preview Assets.xcassets */; };
 		8BF6B32A283AAC000026869F /* ListWithSnapTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B329283AAC000026869F /* ListWithSnapTo.swift */; };
 		8BF6B32C283AAC280026869F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B32B283AAC280026869F /* Message.swift */; };
-		8BF6B32E283AAD6A0026869F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B32D283AAD6A0026869F /* Extensions.swift */; };
+		8BF6B37F283D18D50026869F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6B37E283D18D50026869F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		8BF6B320283A808B0026869F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BF6B329283AAC000026869F /* ListWithSnapTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListWithSnapTo.swift; sourceTree = "<group>"; };
 		8BF6B32B283AAC280026869F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		8BF6B32D283AAD6A0026869F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8BF6B37E283D18D50026869F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +41,7 @@
 		8BF6B30D283A80880026869F = {
 			isa = PBXGroup;
 			children = (
+				8BF6B37E283D18D50026869F /* Extensions.swift */,
 				8BF6B318283A80880026869F /* ListWithSnapTo */,
 				8BF6B317283A80880026869F /* Products */,
 			);
@@ -60,7 +61,6 @@
 				8BF6B319283A80880026869F /* ListWithSnapToApp.swift */,
 				8BF6B31B283A80890026869F /* ContentView.swift */,
 				8BF6B329283AAC000026869F /* ListWithSnapTo.swift */,
-				8BF6B32D283AAD6A0026869F /* Extensions.swift */,
 				8BF6B32B283AAC280026869F /* Message.swift */,
 				8BF6B31D283A808B0026869F /* Assets.xcassets */,
 				8BF6B31F283A808B0026869F /* Preview Content */,
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF6B32E283AAD6A0026869F /* Extensions.swift in Sources */,
+				8BF6B37F283D18D50026869F /* Extensions.swift in Sources */,
 				8BF6B31C283A80890026869F /* ContentView.swift in Sources */,
 				8BF6B32C283AAC280026869F /* Message.swift in Sources */,
 				8BF6B32A283AAC000026869F /* ListWithSnapTo.swift in Sources */,
