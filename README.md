@@ -1,7 +1,7 @@
 # ListWithSnapTo
 Entry for SwiftUI Series: Workarounds
 
-(https://github.com/Yrban/ListWithSnapTo/blob/main/ListWithSnapTo.gif)
+![](https://github.com/Yrban/ListWithSnapTo/blob/main/ListWithSnapTo.gif)
 
 This workaround started from a Stack Overflow question: [How do I get the ScrollView to keep its position when the keyboard appears with iOS 15/Xcode 13?
 ](https://stackoverflow.com/questions/69500656/how-do-i-get-the-scrollview-to-keep-its-position-when-the-keyboard-appears-with) The issue stems from an area where SwiftUI is not fully mature. When the keyboard appears in UIKit with a Scroll View, it will keep the position of the last element in the view above the keyboard. Lists in SwiftUI won't do that. There are two options: use a UIViewRepresentable or this workaround. The original poster wanted an answer that was essentially SwiftUI. I say essentially, as I had to dive into UIKit a bit to come up with some extensions to determine whether the keyboard was on screen or not.
